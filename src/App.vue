@@ -50,7 +50,7 @@
       return {
         solution: [1, 2, 3, 4],
         guess: [],
-        guesses: [3],
+        guesses: [],
         blackPegCount: 0,
         whitePegCount: 0,
         gameOver: false,

@@ -70,7 +70,7 @@
                 this.peg2 = '';
                 this.peg3 = '';
                 this.peg4 = '';
-                this.guess = '';
+                this.guess = []
             }
         }
     }
