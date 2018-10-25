@@ -44,7 +44,7 @@
                     <label for="4-six"><input type="radio" id="4-six" value=6 v-model="peg4"> Purple</label>
                 </div>
                 <div class="col-sm-8 col-sm-offset-2 col-xs-12 col-md-6 col-md-offset-3 form-group">
-                    <button class="btn btn-primary" @click.prevent="enterGuess">Enter</button>
+                    <button class="btn btn-primary btn-enter" @click.prevent="enterGuess">Enter</button>
                 </div>
             </form>
         </div>

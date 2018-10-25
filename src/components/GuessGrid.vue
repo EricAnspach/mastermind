@@ -5,11 +5,15 @@
            <app-guess v-for="guess in guesses">
                 <!-- Code here to pass dot images into the slot in Guess.vue.
                 Loop through array for each guess to display the right color dot image at each position -->
-                <img src="../assets/dot1.png" width="75px" height="75px">
-                <img src="../assets/dot2.png" width="75px" height="75px">
-                <img src="../assets/dot3.png" width="75px" height="75px">
-                <img src="../assets/dot4.png" width="75px" height="75px">
 
+                <!-- Javascript code - document.getElementById('.dot-first').src = '../assets/dot' + dot + '.png'; -->
+
+                <!-- Create custom directive to display correct color dots -->
+
+                <img src="../assets/dot1.png" width="75px" height="75px" id="dot-first">
+                <img src="../assets/dot2.png" width="75px" height="75px" id="dot-second">
+                <img src="../assets/dot3.png" width="75px" height="75px" id="dot-third">
+                <img src="../assets/dot4.png" width="75px" height="75px" id="dot-fourth">          
            </app-guess>
         </div>
 
